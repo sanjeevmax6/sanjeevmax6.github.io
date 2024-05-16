@@ -7,6 +7,9 @@ import energy_forecast from "../../Assets/Projects/energy_forecast.png";
 import info_sec from "../../Assets/Projects/info_sec.png"
 import temperature_controller from "../../Assets/Projects/temperature_controller.png"
 import spider_logo from "../../Assets/Projects/spider_logo.jfif"
+import nitt from "../../Assets/NITT_logo.png"
+import chat_app from "../../Assets/Projects/chat_app.png"
+import rock_paper_scissors from "../../Assets/rock_paper_scissors.png"
 
 function Projects() {
   return (
@@ -50,7 +53,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
           <ProjectCard
-              imgPath={energy_forecast}
+              imgPath={nitt}
               // isLink={true}
               // linkName={"Project Poster"}
               title="Orientation App'20"
@@ -62,7 +65,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
           <ProjectCard
-              imgPath={energy_forecast}
+              imgPath={chat_app}
               // isLink={true}
               // linkName={"Project Poster"}
               title="Public Chatting Forum"
@@ -74,7 +77,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
           <ProjectCard
-              imgPath={energy_forecast}
+              imgPath={rock_paper_scissors}
               // isLink={true}
               // linkName={"Project Poster"}
               title="Rock Paper Scissors"
