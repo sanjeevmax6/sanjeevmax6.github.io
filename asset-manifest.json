@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89496ca4.css",
+    "main.js": "/static/js/main.a5e06a7a.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Sanjeev_pose.png": "/static/media/Sanjeev_pose.94b099eb48aff36bc9ca.png",
+    "static/media/energy_forecast.png": "/static/media/energy_forecast.8403f2ac1f06401b1aea.png",
+    "static/media/research_assistant.png": "/static/media/research_assistant.304a76c979b2ec5386b7.png",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/temperature_controller.png": "/static/media/temperature_controller.c607d935f3421907aaf2.png",
+    "static/media/amsterdam_ml.png": "/static/media/amsterdam_ml.6e6ae6f820b044da7451.png",
+    "static/media/info_sec.png": "/static/media/info_sec.9d2ba93d3569df71d820.png",
+    "static/media/nlp_stony_brook.png": "/static/media/nlp_stony_brook.a63e8460952e4c22419c.png",
+    "static/media/spider_logo.jfif": "/static/media/spider_logo.fc94f16af99d0338f3b5.jfif",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "static/media/file-type-matlab.svg": "/static/media/file-type-matlab.ebbbcee5455a71b40cf11e4c85173b63.svg",
+    "main.89496ca4.css.map": "/static/css/main.89496ca4.css.map",
+    "main.a5e06a7a.js.map": "/static/js/main.a5e06a7a.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89496ca4.css",
+    "static/js/main.a5e06a7a.js"
+  ]
+}
