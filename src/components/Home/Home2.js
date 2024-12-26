@@ -39,7 +39,11 @@ function Home2() {
         </Row>
         <Row className="mt-5">
             <Col md={12}>
-              <h2 className="education-heading">Education</h2>
+              <h2 className="education-heading">
+              <strong className="purple">
+                Education
+              </strong>
+                </h2>
               <Row className="mt-4">
                 <Col md={6}>
                   <div className="education-card">
