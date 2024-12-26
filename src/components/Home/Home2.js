@@ -43,7 +43,11 @@ function Home2() {
               <Row className="mt-4">
                 <Col md={6}>
                   <div className="education-card">
-                    <h3>Rochester Institute of Technology</h3>
+                    <h3>
+                    <a href="https://www.rit.edu/" className="link-hover" target="_blank">
+                      Rochester Institute of Technology
+                    </a>
+                    </h3>
                     <p className="degree-name">Master of Science in Artificial Intelligence</p>
                     <p className="college-name">New York, USA</p>
                     <p className="graduation-date">Expected December 2025</p>
@@ -51,7 +55,11 @@ function Home2() {
                 </Col>
                 <Col md={6}>
                   <div className="education-card">
-                    <h3>National Institute of Technology, Tiruchirappalli</h3>
+                    <h3>
+                    <a href="https://www.nitt.edu/" className="link-hover" target="_blank">
+                      National Institute of Technology, Tiruchirappalli
+                    </a>
+                      </h3>
                     <p className="degree-name">Bachelor of Technology; Chemical Engineering, Computer Science</p>
                     <p className="college-name">Tiruchirappalli, India</p>
                     <p className="graduation-date">May 2023</p>
