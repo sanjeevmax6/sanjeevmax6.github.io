@@ -13,7 +13,6 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-
               <h1 className="heading-name">
                 <strong className="main-name"> Sanjeev Vijayakumar</strong>
               </h1>
@@ -24,14 +23,39 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20, paddingLeft: 60 }}>
-            <img
-              src={sanjeev}
-              alt="home pic"
-              className="img-fluid rounded-circle"
-              style={{ width: "60%", height: "100%" }}
-            />
+              <img
+                src={sanjeev}
+                alt="home pic"
+                className="img-fluid rounded-circle"
+                style={{ width: "60%", height: "100%" }}
+              />
             </Col>
           </Row>
+
+          {/* Education Section */}
+          {/* <Row className="mt-5">
+            <Col md={12}>
+              <h2 className="education-heading">Education</h2>
+              <Row className="mt-4">
+                <Col md={6}>
+                  <div className="education-card">
+                    <h3>Master's Degree</h3>
+                    <p className="degree-name">Master of Science in Computer Science</p>
+                    <p className="college-name">Arizona State University</p>
+                    <p className="graduation-date">Expected May 2024</p>
+                  </div>
+                </Col>
+                <Col md={6}>
+                  <div className="education-card">
+                    <h3>Bachelor's Degree</h3>
+                    <p className="degree-name">Bachelor of Engineering in Computer Science</p>
+                    <p className="college-name">Anna University</p>
+                    <p className="graduation-date">May 2022</p>
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row> */}
         </Container>
       </Container>
       <Home2 />

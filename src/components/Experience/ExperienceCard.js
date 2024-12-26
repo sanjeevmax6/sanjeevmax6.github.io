@@ -45,14 +45,16 @@ function ProjectCards(props) {
                         <h4 style={{ marginBottom: '0.2rem' }}>
                         <span className="d-flex align-items-center gap-1">
                         <BsBuilding size={18} />
+                        <a href={props.href} className="link-hover" target="_blank">
                         {props.company}
+                        </a>
                         </span>
                         </h4>
                       </strong>
                     </Card.Title>
                     <div className="text-muted" style={{ fontSize: '0.9rem' }}>
-                      <strong className="purple">
-                      <span className="d-flex align-items-center gap-1">
+                      <strong>
+                      <span className="d-flex align-items-center gap-1 text-white">
                         {props.title}
                       </span>
                       </strong>

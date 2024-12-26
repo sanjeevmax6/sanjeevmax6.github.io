@@ -15,6 +15,8 @@ import {
   SiReact   
 } from "react-icons/si";
 import {FaGoogle, FaMobileAlt, FaFlag, FaNodeJs, FaMicrosoft, FaPenSquare, FaEnvelope, FaFire } from 'react-icons/fa'
+import { SiDatadog, SiApacheairflow, SiJira } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 import ReactTooltip from 'react-tooltip';
 
 
@@ -123,6 +125,26 @@ const Toolstack = () => {
 
       <Col xs={4} md={2} className="tech-icons" onMouseEnter={() => handleMouseEnter("Firebase")} onMouseLeave={handleMouseLeave} data-tip={tooltipText}>
         <FaFire className="icon-color"/>
+        <ReactTooltip style={tooltipStyles} className="custom-tooltip"/>
+      </Col> 
+
+      <Col xs={4} md={2} className="tech-icons" onMouseEnter={() => handleMouseEnter("Datadog")} onMouseLeave={handleMouseLeave} data-tip={tooltipText}>
+        <SiDatadog className="icon-color"/>
+        <ReactTooltip style={tooltipStyles} className="custom-tooltip"/>
+      </Col> 
+
+      <Col xs={4} md={2} className="tech-icons" onMouseEnter={() => handleMouseEnter("Airflow")} onMouseLeave={handleMouseLeave} data-tip={tooltipText}>
+        <SiApacheairflow className="icon-color"/>
+        <ReactTooltip style={tooltipStyles} className="custom-tooltip"/>
+      </Col> 
+
+      <Col xs={4} md={2} className="tech-icons" onMouseEnter={() => handleMouseEnter("JIRA")} onMouseLeave={handleMouseLeave} data-tip={tooltipText}>
+        <SiJira className="icon-color"/>
+        <ReactTooltip style={tooltipStyles} className="custom-tooltip"/>
+      </Col> 
+
+      <Col xs={4} md={2} className="tech-icons" onMouseEnter={() => handleMouseEnter("Next JS")} onMouseLeave={handleMouseLeave} data-tip={tooltipText}>
+        <TbBrandNextjs className="icon-color"/>
         <ReactTooltip style={tooltipStyles} className="custom-tooltip"/>
       </Col> 
 

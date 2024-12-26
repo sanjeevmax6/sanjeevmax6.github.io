@@ -16,12 +16,25 @@ function Experience() {
         <h1 className="project-heading">
           My <strong className="purple"> Internships </strong>
         </h1>
+           <ProjectCard
+              // isLink={true}
+              title="Software Engineering Co-op, Web SDK"
+              company="Skillz"
+              duration="6 months"
+              period="August 2024"
+              description="Developed and ported the Web SDK for a skill-based mobile gaming, leveraging React, TypeScript, NextJS, and Unity. Enhanced user experience by optimizing features such as score tracking, leaderboard updates, and seamless transitions between gaming environments. Played a pivotal role in resolving critical bugs, ensuring efficient integration between React and Unity, and contributed to the deployment pipeline using Jenkins for market-ready releases."
+              skills="Software Development, Web SDK Development, Debugging and Issue Resolution, User Experience Enhancement, Agile Methodologies, CI/CD (Jenkins), TypeScript, React, Unity Integration."
+              achievements="Successfully optimized the Web SDK to improve the efficiency of real-money gaming tournaments. Resolved over 10 critical bugs weekly, addressing in-game currency discrepancies and navigation issues, improving game stability and user satisfaction. Delivered features that significantly enhanced UX, supporting seamless gameplay transitions and robust leaderboard updates."
+              // ghLink="https://github.com/sanjeevmax6/GCPNet"
+              demoLink="https://arxiv.org/abs/2208.04415"
+              href="https://www.skillz.com/page/3/"
+            />
             <ProjectCard
               // imgPath={nlp_stony_brook}
               isLink={true}
               linkName={"Empirical Paper"}
               title="Natural Language Processing Intern"
-              company="Stony Brook University"
+              company="Stony Brook University, NY"
               duration="6 months"
               period="January 2022"
               description="Collaborated in an NLP research project at Stony Brook University aimed at translating human language text into SQL queries for efficient database retrieval. Conducted a comprehensive survey of key NLP frameworks to distill their methodologies. Actively participated in hands-on tasks such as debugging source code, resolving compatibility issues, and testing models to ensure accuracy."
@@ -29,12 +42,13 @@ function Experience() {
               achievements="Co-authored a research paper synthesizing NLP models and making significant contributions to the discourse on NLP-driven database query generation. Contributed to the development of innovative solutions for efficient database retrieval using NLP techniques. Demonstrated expertise in NLP, machine learning methodologies, and collaborative research."
               // ghLink="https://github.com/sanjeevmax6/GCPNet"
               demoLink="https://arxiv.org/abs/2208.04415"
+              href="https://www.stonybrook.edu/"
             />
             <ProjectCard
               // isLink={true}
               linkName={"Empirical Paper"}
               title="Information Retrieval Intern"
-              company="Université Toulouse III-Paul Sabatier"
+              company="IRIT Labs, Université Toulouse III-Paul Sabatier"
               duration="3 months"
               period="June 2022"
               description="During my two-month summer internship in France, I led initiatives to optimize Dense Retrieval Models within legal information retrieval, focusing on streamlining the extraction of crucial legal insights from extensive documents. Working closely with the 'Lawbot' division, I delved into extensive literature reviews and adeptly implemented tools like pyserini and zero-shot retrieval methods to enhance Dense retrieval models, especially in scenarios with restricted server access."
@@ -42,6 +56,7 @@ function Experience() {
               achievements="Successfully integrated enhancements into the Lawbot model, significantly amplifying retrieval efficiency and addressing pivotal needs within the legal sector. Embracing a new continent, I cultivated invaluable soft skills such as teamwork, time management, and creative thinking, contributing to both professional and personal growth."
               // ghLink="https://github.com/sanjeevmax6/GCPNet"
               // demoLink="https://arxiv.org/abs/2208.04415"
+              href="https://www.irit.fr/en/home/"
             />
             <ProjectCard
               isLink={true}
@@ -55,6 +70,7 @@ function Experience() {
               achievements="Successfully implemented innovative solution, addressing significant resource wastage issue in cloud computing. Model's performance rigorously evaluated, culminating in comprehensive research paper."
               ghLink="https://github.com/sanjeevmax6/ALSO-Optimization"
               demoLink="https://ieeexplore.ieee.org/abstract/document/9929894"
+              href="https://www.nitt.edu/"
             />
             <ProjectCard
               isLink={true}
@@ -68,6 +84,7 @@ function Experience() {
               achievements="Successfully demonstrated the superiority of DF E-commerce through comprehensive experiments, achieving an impressive 97.3% accuracy with an FDR of 0.04, showcasing its potential to enhance product recommendations in the E-commerce sector."
               // ghLink="https://github.com/sanjeevmax6/ALSO-Optimization"
               demoLink="https://link.springer.com/chapter/10.1007/978-3-031-01942-5_21"
+              href="https://www.nitt.edu/"
             />
             <ProjectCard
               // isLink={true}
@@ -81,6 +98,7 @@ function Experience() {
               achievements="Played a key role in ensuring successful compliance testing, crucial for RISC-V's operation across various devices like tablets, mobiles, laptops, and pagers."
               // ghLink="https://github.com/sanjeevmax6/ALSO-Optimization"
               // demoLink="https://link.springer.com/chapter/10.1007/978-3-031-01942-5_21"
+              href="https://shakti.org.in/"
             />
             <ProjectCard
               // isLink={true}
@@ -94,6 +112,7 @@ function Experience() {
               achievements="Successfully developed and deployed a groundbreaking healthcare application, facilitating seamless access to patient vitals for both doctors and patients, enhancing healthcare delivery and accessibility."
               // ghLink="https://github.com/sanjeevmax6/ALSO-Optimization"
               // demoLink="https://link.springer.com/chapter/10.1007/978-3-031-01942-5_21"
+              href="https://www.sensordropsnetworks.com/"
             />
       </Container>
 
@@ -114,6 +133,7 @@ function Experience() {
               achievements="Successfully applied AI and ML techniques to gene regulation, developed innovative solutions for DNA binding protein classification, utilized advanced architectures like Protein Language Models and GCNNs, and implemented efficient data management strategies."
               ghLink="https://github.com/sanjeevmax6/GCPNet"
               // demoLink="https://drive.google.com/file/d/1-ouVuAvdUnvml8L0l2CC8RUOXOu2GUzh/view?usp=sharing"
+              href="https://rit.edu/science/cui-research-group"
             />
             <ProjectCard
               // imgPath={graduate_research_assistant}
@@ -128,6 +148,7 @@ function Experience() {
               achievements="Successfully developed and deployed the 2020 Orientation App, garnering 1000+ downloads and a 4.9/5 rating, facilitating seamless online orientations for freshmen during the pandemic. Led the creation of the Lynx NITT app, serving as a centralized platform for college information and club communications, with secure login functionality."
               ghLink="https://github.com/SpiderNitt"
               // demoLink="https://drive.google.com/file/d/1-ouVuAvdUnvml8L0l2CC8RUOXOu2GUzh/view?usp=sharing"
+              href="https://spider.nitt.edu/"
             />
             <ProjectCard
               imgPath={amsterdam_ml}
@@ -142,6 +163,7 @@ function Experience() {
               achievements="Achieved a Mean Average Error of 23.45% using XGBoost as the optimal model, with one-hot encoding optimizing categorical variables. Highlighted noteworthy findings on catalytic pyrolysis, emphasizing optimal temperatures like 425°C. Demonstrated expertise in Machine Learning and data analysis methodologies, showcasing dedication to interdisciplinary research."
               // ghLink="https://github.com/sanjeevmax6/GCPNet"
               demoLink="https://drive.google.com/file/d/1xGBehlpxWSxE5nC_JJSWaKDCWPOwNAaa/view?usp=sharing"
+              href="https://hims.uva.nl/"
             />
       </Container>
 
@@ -155,6 +177,7 @@ function Experience() {
               company="Festember, NIT Trichy"
               duration="18 months"
               description="During my senior year, I led Festember, South India's largest cultural festival, overseeing 17 teams and managing finances exceeding 10 million INR. Navigating government regulations, I ensured seamless collaboration, providing students a platform to showcase talents and connect with industry luminaries, shaping their career trajectories."
+              href="https://festember.com/"
             />
             <ProjectCard
               title="International Relations Coordinator"
@@ -163,6 +186,7 @@ function Experience() {
               duration="12 months"
               description="As part of OIR NIT Trichy, I was involved in managing informative seminars, gathering database for internship opportunities in foreign universities for students of NIT Trichy, drafting Faculty exchange and student exchange proposals and ideating for a research internship portal. 
               Our main motive is maximum global exposure for NIT Trichy."
+              href="https://oir.nitt.edu/"
             />
             <ProjectCard
               title="Quality Assurance Manager"
@@ -171,6 +195,7 @@ function Experience() {
               duration="24 months"
               description="
               As a Quality Assurance Manager at Pragyan, I ensure ISO certifications with professionalism. Having advanced from Coordinator, I lead patronage procurement and meticulous documentation. We brainstorm methods for genuine participant feedback in NIT Trichy's annual fest."
+              href="https://pragyan.org/"
             />
       </Container>
     </Container>

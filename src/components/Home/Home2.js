@@ -24,12 +24,11 @@ function Home2() {
               GET TO <span className="purple"> KNOW </span> ME
             </h1>
             <p className="home-about-body">
-            An adept graduate scholar specializing in Artificial Intelligence and Machine Learning from an engineering background. 
-            With Proficiency in Python, TensorFlow, and PyTorch, I've contributed to impactful projects, including gene regulation research and environmental sustainability initiatives. 
-            My international research experiences with University of Amsterdam and IRIT Labs, France, brings a global perspective to my work. 
-            I am passionate about real-world applications, such as predictive modeling and self-adaptive systems. 
-            As a leader by nature, I've spearheaded Festember, South India's Largest Cultural Festival and guided junior application developers at Spider R&D, 
-            I am committed to excellence in every endeavor.
+            I'm an adept graduate scholar specializing in Software Engineering & AI. I come from an engineering background with
+            competence in React, NextJS, SQL, Python, and TensorFlow. I've contributed to impactful projects, allowing to cut down $11M cloud resources wastage, and a lot others. 
+            My software engineering experience with Skillz, and international research experiences in France and Amsterdam, brings global perspective to my work. 
+            As a leader by nature, I've spearheaded South India's Largest Cultural Festival and mentored junior application developers for over 3 years.
+            I am committed to excellence in my every endeavor.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -38,6 +37,30 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        <Row className="mt-5">
+            <Col md={12}>
+              <h2 className="education-heading">Education</h2>
+              <Row className="mt-4">
+                <Col md={6}>
+                  <div className="education-card">
+                    <h3>Rochester Institute of Technology</h3>
+                    <p className="degree-name">Master of Science in Artificial Intelligence</p>
+                    <p className="college-name">New York, USA</p>
+                    <p className="graduation-date">Expected December 2025</p>
+                  </div>
+                </Col>
+                <Col md={6}>
+                  <div className="education-card">
+                    <h3>National Institute of Technology, Tiruchirappalli</h3>
+                    <p className="degree-name">Bachelor of Technology; Chemical Engineering, Computer Science</p>
+                    <p className="college-name">Tiruchirappalli, India</p>
+                    <p className="graduation-date">May 2023</p>
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+
         <Container>
         <h1 className="project-heading">
           Programming <strong className="purple">Languages </strong>
