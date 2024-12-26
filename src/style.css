@@ -455,21 +455,13 @@ button:focus {
   background-image: var(--section-background-color) !important;
 }
 
-.project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
-}
-
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+  width: 100% !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -573,6 +565,7 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
 
 /* --------- */
@@ -782,4 +775,57 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+.timeline-item {
+  display: flex;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 119px;
+  height: calc(100% + 2rem);
+  width: 2px;
+  background-color: #623686; /* matches your purple theme */
+  z-index: 1;
+}
+
+.timeline-item:last-child::before {
+  height: 50%;
+}
+
+.timeline-date {
+  width: 120px;
+  padding-right: 2rem;
+  text-align: right;
+  position: relative;
+}
+
+.timeline-date::after {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background-color: #623686;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.date-text {
+  color: #fff;
+  font-weight: 500;
+}
+
+.timeline-content {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+.project-card-view {
+  width: 100%;
 }
