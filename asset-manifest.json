@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ee20501.css",
-    "main.js": "/static/js/main.5e434dd3.js",
+    "main.js": "/static/js/main.0af8b7f5.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Sanjeev_pose.png": "/static/media/Sanjeev_pose.94b099eb48aff36bc9ca.png",
@@ -18,14 +18,13 @@
     "static/media/spider_logo.jfif": "/static/media/spider_logo.fc94f16af99d0338f3b5.jfif",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "static/media/file-type-matlab.svg": "/static/media/file-type-matlab.ebbbcee5455a71b40cf11e4c85173b63.svg",
     "main.3ee20501.css.map": "/static/css/main.3ee20501.css.map",
-    "main.5e434dd3.js.map": "/static/js/main.5e434dd3.js.map",
+    "main.0af8b7f5.js.map": "/static/js/main.0af8b7f5.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ee20501.css",
-    "static/js/main.5e434dd3.js"
+    "static/js/main.0af8b7f5.js"
   ]
 }
