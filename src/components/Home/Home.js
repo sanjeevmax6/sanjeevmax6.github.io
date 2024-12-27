@@ -31,31 +31,6 @@ function Home() {
               />
             </Col>
           </Row>
-
-          {/* Education Section */}
-          {/* <Row className="mt-5">
-            <Col md={12}>
-              <h2 className="education-heading">Education</h2>
-              <Row className="mt-4">
-                <Col md={6}>
-                  <div className="education-card">
-                    <h3>Master's Degree</h3>
-                    <p className="degree-name">Master of Science in Computer Science</p>
-                    <p className="college-name">Arizona State University</p>
-                    <p className="graduation-date">Expected May 2024</p>
-                  </div>
-                </Col>
-                <Col md={6}>
-                  <div className="education-card">
-                    <h3>Bachelor's Degree</h3>
-                    <p className="degree-name">Bachelor of Engineering in Computer Science</p>
-                    <p className="college-name">Anna University</p>
-                    <p className="graduation-date">May 2022</p>
-                  </div>
-                </Col>
-              </Row>
-            </Col>
-          </Row> */}
         </Container>
       </Container>
       <Home2 />

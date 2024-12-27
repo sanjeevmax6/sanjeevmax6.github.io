@@ -13,8 +13,14 @@ import Techstack from "../About/Techstack";
 import Aboutcard from "../About/AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "../About/Toolstack";
+import ReactTooltip from 'react-tooltip';
 
 function Home2() {
+  const tooltipStyles = {
+    backgroundColor: 'transparent',
+    color: 'purple',
+  };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -54,7 +60,7 @@ function Home2() {
                     </h3>
                     <p className="degree-name">Master of Science in Artificial Intelligence</p>
                     <p className="college-name">New York, USA</p>
-                    <p className="graduation-date">Expected December 2025</p>
+                    <p className="graduation-date">August 2023 - December 2025</p>
                   </div>
                 </Col>
                 <Col md={6}>
@@ -65,8 +71,8 @@ function Home2() {
                     </a>
                       </h3>
                     <p className="degree-name">Bachelor of Technology; Chemical Engineering, Computer Science</p>
-                    <p className="college-name">Tiruchirappalli, India</p>
-                    <p className="graduation-date">May 2023</p>
+                    <p className="college-name">Tamilnadu, India</p>
+                    <p className="graduation-date">July 2019 - May 2023</p>
                   </div>
                 </Col>
               </Row>
@@ -74,6 +80,7 @@ function Home2() {
           </Row>
 
         <Container>
+        <ReactTooltip style={tooltipStyles}/>
         <h1 className="project-heading">
           Programming <strong className="purple">Languages </strong>
         </h1>
