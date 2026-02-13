@@ -1,30 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ee20501.css",
-    "main.js": "/static/js/main.0af8b7f5.js",
-    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "main.css": "/static/css/main.6c9fe127.css",
+    "main.js": "/static/js/main.17baa6aa.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Sanjeev_pose.png": "/static/media/Sanjeev_pose.94b099eb48aff36bc9ca.png",
-    "static/media/rock_paper_scissors.png": "/static/media/rock_paper_scissors.3647b97899b263377db9.png",
-    "static/media/NITT_logo.png": "/static/media/NITT_logo.7dad1e349a9d04393e12.png",
-    "static/media/energy_forecast.png": "/static/media/energy_forecast.8403f2ac1f06401b1aea.png",
-    "static/media/research_assistant.png": "/static/media/research_assistant.304a76c979b2ec5386b7.png",
-    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/temperature_controller.png": "/static/media/temperature_controller.c607d935f3421907aaf2.png",
-    "static/media/amsterdam_ml.png": "/static/media/amsterdam_ml.6e6ae6f820b044da7451.png",
-    "static/media/chat_app.png": "/static/media/chat_app.2bde33f177e02ae71649.png",
-    "static/media/info_sec.png": "/static/media/info_sec.9d2ba93d3569df71d820.png",
-    "static/media/nlp_stony_brook.png": "/static/media/nlp_stony_brook.a63e8460952e4c22419c.png",
-    "static/media/spider_logo.jfif": "/static/media/spider_logo.fc94f16af99d0338f3b5.jfif",
-    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/iitKharagpurLogo.png": "/static/media/iitKharagpurLogo.740898ae3fa8b64a0840.png",
+    "static/media/nokiaLogo.png": "/static/media/nokiaLogo.bf7fe8b217fb69448982.png",
+    "static/media/iitMadrasLogo.png": "/static/media/iitMadrasLogo.0c8e407e3efea2ce1ae0.png",
     "index.html": "/index.html",
-    "main.3ee20501.css.map": "/static/css/main.3ee20501.css.map",
-    "main.0af8b7f5.js.map": "/static/js/main.0af8b7f5.js.map",
-    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "main.6c9fe127.css.map": "/static/css/main.6c9fe127.css.map",
+    "main.17baa6aa.js.map": "/static/js/main.17baa6aa.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ee20501.css",
-    "static/js/main.0af8b7f5.js"
+    "static/css/main.6c9fe127.css",
+    "static/js/main.17baa6aa.js"
   ]
 }
