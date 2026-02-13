@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6c9fe127.css",
-    "main.js": "/static/js/main.17baa6aa.js",
+    "main.js": "/static/js/main.93bd33bc.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Sanjeev_pose.png": "/static/media/Sanjeev_pose.94b099eb48aff36bc9ca.png",
     "static/media/iitKharagpurLogo.png": "/static/media/iitKharagpurLogo.740898ae3fa8b64a0840.png",
@@ -9,11 +9,11 @@
     "static/media/iitMadrasLogo.png": "/static/media/iitMadrasLogo.0c8e407e3efea2ce1ae0.png",
     "index.html": "/index.html",
     "main.6c9fe127.css.map": "/static/css/main.6c9fe127.css.map",
-    "main.17baa6aa.js.map": "/static/js/main.17baa6aa.js.map",
+    "main.93bd33bc.js.map": "/static/js/main.93bd33bc.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c9fe127.css",
-    "static/js/main.17baa6aa.js"
+    "static/js/main.93bd33bc.js"
   ]
 }
