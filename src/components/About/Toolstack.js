@@ -9,7 +9,7 @@ import {
   SiDocker,
   SiReact   
 } from "react-icons/si";
-import {FaGoogle, FaMobileAlt, FaFlag, FaNodeJs, FaMicrosoft, FaPenSquare, FaEnvelope, FaFire } from 'react-icons/fa'
+import {FaGoogle, FaFlag, FaNodeJs, FaMicrosoft, FaPenSquare, FaEnvelope, FaFire } from 'react-icons/fa'
 import { SiDatadog, SiApacheairflow, SiJira } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
